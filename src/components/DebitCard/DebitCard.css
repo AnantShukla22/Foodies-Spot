@@ -1,0 +1,12 @@
+.cardGroup{
+   transform: rotateZ(9deg);
+   margin: 30px;
+   position: relative;
+   height: 170px;
+}
+
+.cardGroup img{
+    position: fixed;
+    /* top: px; */
+    box-shadow: 0px 0px 20px 5px rgba(0, 13, 125, 0.651)
+}

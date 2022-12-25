@@ -1,0 +1,40 @@
+.totalSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    margin: 15px 0px;
+  }
+  
+  .totalSection h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2b3c;
+  }
+  
+  .totalSection p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2b3c;
+  }
+  
+  .totalSection p span {
+    font-size: 14px;
+    color: #f8901c;
+  }
+  
+  .checkOutBtn {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    background: #f8901c;
+    border-radius: 100vw;
+    color: #faf9fb;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  

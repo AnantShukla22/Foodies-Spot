@@ -1,0 +1,44 @@
+/* giving icons propertioes */
+li {
+  position: relative;
+  list-style: none;
+  width: 50px;
+  height: 60px;
+  z-index: 1;
+}
+
+li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+li a span {
+  position: relative;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  transition: 0.5s;
+}
+/* inspect the icon then onlyy u will find the svg */
+li span svg {
+  width: 23px;
+  height: 23px;
+  color: #373848;
+}
+
+li:hover a .icon {
+  transform: translateY(-28px) scale(1.3);
+}
+
+li:hover a .icon svg {
+  color: rgb(255, 0, 140);
+  transition: 0.7s;
+}
+
+

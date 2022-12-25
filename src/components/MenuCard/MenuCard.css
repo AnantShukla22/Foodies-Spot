@@ -1,0 +1,39 @@
+  .menuCard {
+    width: 100%;
+  }
+
+ 
+.subMenuContainer, .viewAll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #f8901c;
+    font-weight: 600;
+  cursor: pointer;
+  
+  }
+  
+  .subMenuContainer h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a2b3c;
+    
+  }
+  .subMenuContainer .viewAll i {
+    background: #f8901c;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  /* we are targeting the inside property of the icon  */
+  .subMenuContainer .viewAll i .MuiSvgIcon-root {
+    font-size: 16px !important;
+    color: #faf9fb;
+  }

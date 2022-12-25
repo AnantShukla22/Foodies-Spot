@@ -1,0 +1,57 @@
+.banner {
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+
+    /* we have given background to the main container */
+    background: url("https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fbanner.png?alt=media&token=7e244d84-8821-477d-b273-4c9381a474fb")
+      no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .bannerContent {
+    padding: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .bannerContent h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2a2b3c;
+    margin: 0px;
+  }
+  
+  .bannerContent p {
+    font-size: 14px;
+    width: 200px;
+    color: #989594;
+    margin: 8px 0;
+  }
+  
+  .bannerContent p span {
+    /* color: #f8901c; */
+    font-weight: 500;
+  }
+  
+  .bannerContent a {
+    background: #f8901c;
+    padding: 5px 15px;
+    border-radius: 100vw;
+    color: #faf9fb;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .bannerContent a:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+  }
+

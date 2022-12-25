@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 15px;
+  height: 63px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #e3c2c2;
+  /* it should be top of all the layer */
+  z-index: 101;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  font-size: 23px;
+  color: #745c41;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.headerPic {
+  min-width: 50px;
+  width: 50px;
+  display: none;
+}
+
+.inputBox {
+  background-color: rgb(222, 222, 222);
+  border-radius: 25px;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 8px 10px;
+  width: 255px;
+  margin: 0 8px;
+}
+
+.inputBox .searchIcon {
+  color: #373848;
+  font-size: 20px;
+  margin: 2px;
+}
+.inputBox input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #373848;
+  padding: 3px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shoppingCart {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.shoppingCart .cartIcon {
+  font-size: 30px;
+  color: #373848;
+  margin-left: 17px;
+}
+
+.shoppingCart .cart_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+}
+.shoppingCart span {
+  padding: 1px 5px;
+  background-color: aqua;
+  border-radius: 100%;
+  font-weight: 700;
+  font-size: smaller;
+  position: absolute;
+  bottom: 18px;
+  left: 13px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  cursor: pointer;
+
+}
+
+.profileContainer .profileBox {
+  width: 40px;
+  height: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  display: none;
+
+}
+
+.profileContainer .profileBox .profilePic {
+  width: 100%;
+  height: 100%;
+  border-radius: 100vw;
+}
+
+/* we dont want to display the name in mobile mode so display none */
+.profileContainer .userName {
+  display: none;
+  font-size: 20px;
+  margin-left: 8px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.toggleMenu {
+  transform: rotate(90deg);
+}
+
+.toggleMenu .toggleIcon {
+  color: #373848;
+  font-size: 30px;
+}

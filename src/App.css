@@ -1,0 +1,92 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: #faf9fb;
+}
+
+/* to not let scroll bar be there */
+.App::-webkit-scrollbar{
+  display: none;
+}
+
+
+/* resposive  */
+@media(min-width: 650px) {
+ 
+  header{
+      padding: 5px 15px;
+
+  }
+  .rowContainer {
+    justify-content: space-between;
+    margin: 0 100px;
+  }
+
+  header .inputBox {
+    width: 60%;
+  }
+  header .name {
+font-size: 25px;  }
+ 
+ 
+  .main .rightMenu {
+     position: fixed; 
+     z-index: 1;
+    /* transform: translateX(0%); */
+    /* top: unset; */
+    padding: 20px 15px;
+    width: 350px; 
+  }
+
+}
+
+@media(min-width: 850px) {
+  .toggleMenu {
+    display: none;
+  }
+  header .profileContainer .profileBox  {
+    display: block;
+   }
+  header .profileContainer .userName {
+    display: block;
+   }
+   .headerPic {
+    display: block;
+  }
+
+  .bottomMenu .menuList{
+    width: 60%;
+  }
+
+  .leftMenu {
+    left: 21%;
+    width: 40%;
+  }
+
+  .main .mainContainer {
+    width: calc(100% - 350px);
+    padding: 10px 30px;
+
+  }
+  .main .banner {
+    height: 160px;
+  }
+
+  .main {
+    display: flex;
+  }
+  
+  .main .rightMenu {
+    position: fixed;
+    z-index: 1;
+    transform: translateX(0%);
+    top: unset;
+    padding: 20px 15px;
+    width: 360px;
+  }
+  .main .dishItemContainer .container {
+    width: 170px;
+    height: 200px;
+  }
+  
+}

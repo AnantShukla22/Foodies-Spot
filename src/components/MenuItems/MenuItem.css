@@ -1,0 +1,106 @@
+/* for bthe item ka box */
+.boxOfMenuItem {
+  min-width: 104px;
+  height: 124px;
+  border-radius: 10px;
+  background: #fff;
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+  transition: 0.5s;
+  cursor: pointer;
+}
+/*it means either the boxofmenuitem should be active or we hover it to make the following chcanges */
+/* hover or active any one to make changes */
+.boxOfMenuItem:hover,
+.boxOfMenuItem.active {
+  background: #f8901c;
+}
+
+.boxOfMenuItem .imageBox {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/*it means either the boxofmenuitem should be active or we hover it to make the following chcanges */
+/* hover or active any one to make changes */
+
+.boxOfMenuItem:hover .imageBox,
+.boxOfMenuItem.active .imageBox {
+  background: #faf9fb;
+}
+
+.boxOfMenuItem .imageBox img {
+  /* to make the object is shown completely */
+  object-fit: contain;
+  width: 10px;
+  height: 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/*it means either the boxofmenuitem should be active or we hover it to make the following chcanges */
+/* hover or active any one to make changes */
+
+.boxOfMenuItem:hover .imageBox img,
+.boxOfMenuItem.active .imageBox img {
+  width: 80%;
+  height: 80%;
+  transition: 0.5s;
+}
+
+.boxOfMenuItem h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #f8901c;
+  /* transition given here as when we use hoer option h3 ka transition property will hit */
+  transition: 0.5s;
+  margin: 0;
+}
+
+/*  ,  here means   */
+.boxOfMenuItem:hover h3,
+.boxOfMenuItem.active h3 {
+  color: #faf9fb;
+}
+
+.boxOfMenuItem .loadMenu {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #f8901c;
+  transition: 0.5s;
+  margin: 1px;
+}
+
+.boxOfMenuItem:hover .loadMenu,
+.boxOfMenuItem.active .loadMenu {
+  background: #faf9fb;
+}
+
+.boxOfMenuItem .loadMenu .MuiSvgIcon-root {
+  font-size: 14px !important;
+  color: #faf9fb;
+}
+
+.boxOfMenuItem:hover .loadMenu .MuiSvgIcon-root,
+.boxOfMenuItem.active .loadMenu .MuiSvgIcon-root {
+  color: #f8901c;
+}
